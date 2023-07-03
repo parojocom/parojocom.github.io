@@ -1,10 +1,13 @@
 body {
-    background-color: black;
+    background-color: #e5e5e5;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
-.topnav {
-    background-color: #333;
-    overflow: hidden;
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #e5e5e5;
+    }
 }
